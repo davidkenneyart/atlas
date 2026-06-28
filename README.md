@@ -37,6 +37,8 @@ Atlas helps people understand it.
 
 Whether you're an artist, researcher, museum curator, architect, writer, or anyone building a connected body of knowledge, Atlas is designed to reveal relationships that become difficult to see as your work grows.
 
+Atlas does not create knowledge. It helps people understand the knowledge they have already created, collected or discovered.
+
 Atlas doesn't invent meaning.
 
 It reveals it.
