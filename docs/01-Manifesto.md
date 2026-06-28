@@ -10,6 +10,10 @@ It emerges through making, connecting, questioning and discovering.
 
 Atlas exists to support that process.
 
+Atlas does not replace creation.
+
+It reflects it.
+
 ---
 
 ## We believe...
