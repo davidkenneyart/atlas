@@ -12,7 +12,7 @@ Atlas exists to help people understand it.
 
 Atlas is a construction system for connected knowledge. It is built on a simple idea: meaningful structures emerge by connecting simple things together.
 
-Rather than asking people to design databases, schemas or hierarchies before they begin, Atlas encourages them to start making. Create a Thing. Connect it to another. Continue building. As knowledge grows, so does understanding.
+Rather than asking people to design databases, schemas or hierarchies before they begin, Atlas encourages people to begin with something that already exists. A sketch. A note. A photograph. A work. A place. A person. An idea. Create a Thing. Connect it. Build understanding. Create a Thing. Connect it to another. Continue building. As knowledge grows, so does understanding.
 
 Atlas does not impose structure.
 
