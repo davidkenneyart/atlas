@@ -1,120 +1,204 @@
-# Building
+# 03 · Building
 
-Atlas exists to support a simple human process.
+## Overview
 
-People create.
+Atlas does not create knowledge.
 
-Atlas helps them build understanding.
+People do.
+
+Atlas helps people organise, connect and understand the knowledge they have created.
+
+Building with Atlas is not a linear process.
+
+It is a continuous cycle of creation, description and discovery.
 
 ---
 
-## Creation
+## Create
 
 Creation happens outside Atlas.
 
-A painting is painted.
+Someone paints.
 
-A photograph is taken.
+Writes.
 
-An idea is written down.
+Records.
 
-A document is produced.
+Researches.
 
-A conversation takes place.
+Designs.
 
-Atlas does not create these things.
+Photographs.
 
-They already exist.
+Builds.
 
----
+Thinks.
 
-## Adding
-
-When something is added to Atlas, it becomes a Thing.
-
-A Thing may begin as almost anything:
-
-* Text
-* An image
-* A document
-* A recording
-* A link
-* A sketch
-
-Atlas gives it a unique identity.
-
-Everything else is optional.
+Atlas is not involved.
 
 ---
 
-## Describing
+## Add
 
-As knowledge grows, Things gain information.
+Something is added to Atlas.
 
-A Thing might acquire a name.
+It becomes a Thing.
 
-A date.
+At this point, Atlas knows only one thing.
 
-A material.
+> Something exists.
 
-A location.
+Nothing more is required.
 
-A description.
-
-People decide what matters.
-
-Atlas does not prescribe it.
+A Thing may exist with nothing more than its unique identity.
 
 ---
 
-## Connecting
+## Describe
+
+The builder may choose to describe the Thing.
+
+Information is added gradually.
+
+There is no required order.
+
+No required vocabulary.
+
+No required completeness.
+
+Attributes emerge naturally through use.
+
+Atlas remembers previously used attribute names and values, helping builders remain consistent without imposing structure.
+
+Knowledge grows over time.
+
+---
+
+## Connect
 
 Things become more valuable when they are connected.
 
-Connections reflect how people understand the relationships within their work.
+Connections express relationships chosen by the builder.
 
-Each new Connection adds context.
+Atlas never assumes why two Things are related.
 
-Each Connection increases the possibility of discovery.
+A Connection may exist without a label.
 
----
+Labels can be added immediately, much later, or never.
 
-## Building
+Meaning belongs to the builder.
 
-Over time, individual Things become a connected body of knowledge.
-
-This structure is not designed in advance.
-
-It emerges through many small acts of creation and connection.
-
-Atlas helps people build understanding by reflecting the structure they have created.
+Atlas simply records the relationship.
 
 ---
 
-## Discovering
+## Build
 
-As the body of knowledge grows, Atlas begins to reveal:
+The collection grows.
 
-* Paths
-* Patterns
-* Relationships
-* Gaps
-* Opportunities
+Not through planning.
 
-Atlas does not invent meaning.
+Through accumulation.
 
-It reveals what is already there.
+Each Thing becomes another point in the graph.
+
+Each Connection creates another opportunity for understanding.
+
+Builders are free to organise, reorganise and extend their graph without changing the underlying knowledge.
 
 ---
 
-## Understanding
+## Discover
 
-Understanding belongs to the person.
+Eventually the collection becomes larger than the builder can comfortably hold in their head.
 
-Atlas cannot tell someone what their work means.
+Atlas begins revealing structures that already exist.
 
-It can only make that meaning easier to see.
+These may include:
 
-The purpose of Atlas is not to replace human thinking.
+- paths
+- clusters
+- repeated ideas
+- isolated Things
+- highly connected Things
+- opportunities for organisation
 
-It is to extend it.
+Atlas does not invent these.
+
+It reveals them.
+
+---
+
+## Understand
+
+Understanding belongs to the builder.
+
+Atlas does not decide what work means.
+
+It creates the conditions for meaning to become visible.
+
+The builder remains the author of both the work and its interpretation.
+
+Atlas simply helps them see it more clearly.
+
+---
+
+## The Cycle
+
+Building with Atlas is continuous.
+
+```
+Create
+
+↓
+
+Add
+
+↓
+
+Describe
+
+↓
+
+Connect
+
+↓
+
+Discover
+
+↓
+
+Understand
+
+↓
+
+Create...
+```
+
+Each cycle changes what the builder notices.
+
+New understanding often leads to new ideas.
+
+New ideas become new Things.
+
+The graph continues to grow.
+
+---
+
+## Principles
+
+Building in Atlas is guided by a small number of principles.
+
+- People create. Atlas records.
+- Builders choose what matters.
+- Description is optional.
+- Relationships create context.
+- Vocabulary emerges through use.
+- Discovery emerges from connection.
+- Understanding belongs to people.
+
+Atlas does not replace creative thinking.
+
+It extends it.
+
+Atlas is not an archive of finished work. It is a workspace for developing understanding.
