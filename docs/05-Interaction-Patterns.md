@@ -4,11 +4,11 @@
 
 Interaction Patterns describe behaviour, not interface.
 
-Interaction Patterns describe how builders interact with Atlas.
+They define how Atlas behaves.
 
 They are not implementation details.
 
-They are repeatable behaviours that define how Atlas feels to use.
+They are repeatable behaviours that should remain consistent regardless of platform or visual design.
 
 Every interaction should be:
 
@@ -42,7 +42,7 @@ A Connection is created between the two Things.
 
 The Connection initially has no label.
 
-The builder may choose to describe the relationship immediately or later.
+The builder may choose to describe the relationship immediately, later or never.
 
 ## Notes
 
@@ -82,7 +82,7 @@ No additional Connections are created.
 
 ## Intent
 
-Give meaning to an existing Connection.
+Describe an existing relationship.
 
 ## Interaction
 
@@ -115,6 +115,12 @@ Merge 001
 The graph remains unchanged.
 
 Only the description of the Connection changes.
+
+## Notes
+
+Connection labels describe relationships.
+
+They never create them.
 
 ---
 
@@ -162,7 +168,7 @@ The Thing itself remains the same.
 
 ---
 
-# Add an Attribute
+# Add a Description
 
 ## Intent
 
@@ -183,6 +189,57 @@ The Thing becomes more richly described.
 
 Vocabulary emerges naturally through use.
 
+## Notes
+
+Values may be:
+
+- literal values
+- references to existing Things
+
+Selecting a Thing as a Value creates or updates the corresponding Connection.
+
+---
+
+# Follow a Relationship
+
+## Intent
+
+Navigate through the graph.
+
+## Interaction
+
+- Select a connected Thing from the Inspector.
+
+## Result
+
+The selected Thing becomes the current focus.
+
+The Inspector updates.
+
+The Canvas highlights the selected Thing.
+
+Navigation never changes the graph.
+
+---
+
+# Reuse Vocabulary
+
+## Intent
+
+Encourage consistency without imposing structure.
+
+## Behaviour
+
+Atlas remembers previously used:
+
+- Attribute names
+- Attribute values
+- Connection labels
+
+Suggestions appear naturally while builders work.
+
+Builders remain free to create new vocabulary at any time.
+
 ---
 
 # Multi-selection
@@ -193,9 +250,9 @@ Perform the same action on multiple Things.
 
 ## Example
 
-Three Works are selected.
+Three Things are selected.
 
-They are dragged onto one Exhibition.
+They are dragged onto another Thing.
 
 ## Result
 
@@ -237,16 +294,31 @@ Click a Thing.
 
 ## Result
 
-The inspector opens.
+The Inspector opens.
 
 The builder may:
 
 - rename the Thing
-- add Attributes
-- view Connections
-- edit Connection labels
+- inspect descriptions
+- inspect relationships
+- edit descriptions
+- describe relationships
 
 Selecting never changes the graph.
+
+---
+
+# Delete
+
+## Intent
+
+Remove a Thing, Connection or Description.
+
+## Result
+
+Deletion should always be predictable.
+
+Builders should always understand what will be removed before confirming the action.
 
 ---
 
@@ -272,5 +344,6 @@ Every Interaction Pattern should support the following principles.
 - Builders remain in flow.
 - The interface never interrupts momentum.
 - The graph is the source of truth.
-- Visual actions and textual actions should produce the same underlying model.
+- Visual actions and textual actions produce the same underlying model.
+- The same knowledge may be presented in different ways without changing the graph.
 - Atlas should feel more like arranging ideas on a desk than managing records in a database.
