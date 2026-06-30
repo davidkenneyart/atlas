@@ -14,38 +14,34 @@ Each part should be understandable in isolation.
 
 The Core Model remains the centre of the system.
 
-Everything else either creates, presents, analyses or exports it.
+Everything else presents, analyses, stores or exports it.
 
 ---
 
 ## Architecture
 
-```
-                  Builder
 
-                     │
+                   Builder
+
+                      │
 
               Interaction Layer
 
-         ┌───────────┴───────────┐
-         │                       │
+        ┌─────────────┼─────────────┐
+        │             │             │
+        │             │             │
+     Canvas      Inspector      Search
+        │             │             │
+        └─────────────┼─────────────┘
+                      │
 
-      Canvas                Inspector
-
-         │                       │
-
-         └───────────┬───────────┘
-                     │
-
-               Core Model
+                 Core Model
 
       Things · Attributes · Connections
 
-     ┌──────────┬──────────┬──────────┐
-     │          │          │          │
-
-   Views    Discovery  Publishing  Storage
-```
+        ┌─────────────┼─────────────┐
+        │             │             │
+     Discovery    Publishing    Storage
 
 ---
 
@@ -89,7 +85,7 @@ It is responsible for:
 
 The Canvas never modifies the graph directly.
 
-It communicates through actions.
+The Canvas presents one perspective of the Core Model. Builder interactions are translated into changes to the Core Model.
 
 ---
 
@@ -105,7 +101,7 @@ Builders use it to:
 - describe Connections
 - review existing information
 
-The Inspector presents the graph.
+The Inspector presents a focused view of a single Thing and its relationships.
 
 It does not own it.
 
@@ -144,6 +140,8 @@ Examples include:
 - repeated structures
 - highly connected Things
 - suggestions
+
+Discovery may suggest. It never decides.
 
 Discovery never modifies the graph.
 
@@ -217,6 +215,6 @@ Atlas is intentionally simple.
 
 At its centre is a graph composed of Things, Attributes and Connections.
 
-Everything else exists to help builders create, understand and share that graph.
+Everything else exists to help builders build, understand and share it.
 
 The architecture should remain small enough that each part can be understood independently, while together supporting complex creative practices.
