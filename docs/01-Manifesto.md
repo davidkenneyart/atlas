@@ -34,9 +34,9 @@ Every Thing deserves to exist.
 
 Its significance comes from its relationships.
 
-Atlas stores truth.
+Atlas stores knowledge once.
 
-Atlas reveals meaning.
+Meaning emerges through connection.
 
 ---
 
@@ -64,7 +64,7 @@ Simple pieces over complicated systems.
 
 Relationships over hierarchy.
 
-Transparency over automation.
+Transparency over opacity.
 
 Understanding over productivity.
 
@@ -78,7 +78,7 @@ Open knowledge over closed systems.
 
 ## Atlas should...
 
-Disappear.
+Become invisible.
 
 People should think about their work.
 
