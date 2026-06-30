@@ -4,11 +4,13 @@
 
 Atlas is designed to support human thinking.
 
-The interface should never compete with the work it is helping to organise.
+The interface should never compete with the work it is helping people understand.
 
 Every interaction should feel direct, predictable and easy to reverse.
 
 The interface exists to support building, not administration.
+
+The best interface is the one the builder stops noticing.
 
 ---
 
@@ -68,7 +70,7 @@ The same gesture should never produce different results in different contexts.
 
 ## Build, Don't Configure
 
-Builders should spend their time building knowledge.
+Builders should spend their time building understanding.
 
 Not configuring software.
 
@@ -88,7 +90,7 @@ New builders should be guided.
 
 Experienced builders should barely notice the interface.
 
-The software should gradually disappear behind the work.
+The software should gradually become invisible.
 
 ---
 
@@ -108,13 +110,35 @@ The interface should help builders enrich knowledge without making completeness 
 
 ## The Canvas Is A Workspace
 
-The canvas is not a diagram.
+The canvas reveals relationships. It does not attempt to describe everything.
 
 It is a place for thinking.
 
 Builders should feel comfortable adding, moving and connecting Things without concern for perfect organisation.
 
 Structure emerges over time.
+
+---
+
+## The Interface Presents Perspectives
+
+Atlas stores knowledge once.
+
+The canvas.
+
+The inspector.
+
+Search.
+
+Publishing.
+
+Discovery.
+
+Each presents the same underlying graph from a different perspective.
+
+No single view is complete.
+
+Together they help builders understand their work.
 
 ---
 
@@ -175,5 +199,6 @@ Every design decision in Atlas should support these ideas.
 - The model remains simple.
 - Vocabulary emerges naturally.
 - The graph is the truth.
-- Views are interpretations.
+- The Interface Presents Perspectives.
 - Remove before adding.
+- The interface should become invisible.
