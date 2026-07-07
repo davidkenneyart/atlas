@@ -4,15 +4,12 @@
 
 Atlas is built from a deliberately small visual language.
 
-The same language is used throughout the project.
+The same language should be recognisable throughout the project.
 
-Documentation.
-
-Interface.
-
-Branding.
-
-Publishing.
+- documentation
+- interface
+- branding
+- publishing
 
 Every visual element should communicate meaning.
 
@@ -20,67 +17,44 @@ Nothing should exist purely for decoration.
 
 ---
 
-## Principles
+## The Atlas Alphabet
 
-The visual language should be:
+The Atlas visual language is composed of three symbols.
 
-- simple
-- consistent
-- recognisable
-- scalable
-- platform independent
+![Atlas Alphabet](../design/visual-language/atlas-alphabet.png)
 
-It should remain understandable regardless of medium.
+Together they represent the three fundamental concepts of Atlas.
 
----
+| Symbol | Meaning |
+|---------|---------|
+| ○ | Thing |
+| ◇ | Description |
+| ──── | Relationship |
 
-## The Alphabet
-
-Atlas is built from three visual characters.
-
-### Thing
-
-```
-○
-```
-
-Represents a Thing.
-
-The Thing is the fundamental unit of Atlas.
+No additional symbols should be introduced unless they represent a genuinely new concept.
 
 ---
 
-### Description
+## Geometry
 
-```
-◇
-```
+The alphabet is constructed from a shared geometry.
 
-Represents description.
+| Element | Specification |
+|----------|---------------|
+| Thing diameter | 30 units |
+| Stroke width | 2 units |
+| Description | 30 × 30 units, rotated 45° |
+| Relationship | 30 units long, 2 units high |
 
-Descriptions add meaning to Things.
+These proportions define the language.
 
-Descriptions do not appear on the Canvas.
-
-They primarily appear within documentation and the Inspector.
-
----
-
-### Relationship
-
-```
-────
-```
-
-Represents a Connection between Things.
-
-Relationships are first-class concepts within Atlas.
+Implementations may scale freely provided the proportions remain unchanged.
 
 ---
 
 ## Composition
 
-The primitives combine to form more complex ideas.
+The symbols combine to express more complex structures.
 
 ```
 ○────○
@@ -108,20 +82,6 @@ No additional symbols are required.
 
 ---
 
-## Geometry
-
-The visual language is based upon a shared geometry.
-
-- Thing diameter defines the base unit.
-- Description occupies the same unit.
-- Relationship length is based upon the same unit.
-- Line weight remains consistent throughout the system.
-- Corner radius should be shared wherever possible.
-
-The language should feel constructed rather than illustrated.
-
----
-
 ## Canvas
 
 The Canvas presents only:
@@ -129,7 +89,7 @@ The Canvas presents only:
 - Things
 - Relationships
 
-Descriptions belong elsewhere.
+Descriptions belong in the Inspector and supporting interfaces.
 
 The Canvas exists to reveal structure.
 
@@ -139,65 +99,25 @@ Not detail.
 
 ## Inspector
 
-The Inspector presents description and relationships.
+The Inspector presents descriptions and relationships.
 
-The visual language links the Inspector to the documentation.
+The alphabet should provide a visual bridge between the interface and the documentation.
 
 Builders should quickly recognise:
 
-```
-◇
-```
-
-as description.
-
-and
-
-```
-────
-```
-
-as relationships.
-
-No textual headings should be required once familiarity develops.
+- ○ as a Thing
+- ◇ as a Description
+- ──── as a Relationship
 
 ---
 
 ## Branding
 
-The visual language and the Atlas identity should emerge from the same primitives.
+The Atlas identity should emerge from the same visual language.
 
 Branding should never introduce concepts absent from the product.
 
 Likewise, the product should naturally reflect the visual language established by the brand.
-
----
-
-## Consistency
-
-The same visual language should appear throughout Atlas.
-
-Documentation.
-
-Website.
-
-Presentations.
-
-Interface.
-
-Publishing.
-
-Builders should feel they are always reading the same language.
-
----
-
-## Restraint
-
-New symbols should only be introduced when they represent genuinely new concepts.
-
-Decoration should never replace meaning.
-
-If an idea can be expressed using the existing language, no additional symbol should be added.
 
 ---
 
@@ -207,18 +127,21 @@ The visual language should never be the only means of communication.
 
 Every visual concept should have an equivalent textual representation.
 
-The symbols exist to reinforce understanding, not replace it.
+The symbols reinforce understanding.
+
+They do not replace it.
 
 ---
 
 ## Design Principles
 
-Every visual decision should reinforce the following ideas.
+Every visual decision should reinforce the following principles.
 
 - Every visual element carries meaning.
 - Simplicity is preferred over decoration.
 - Consistency is preferred over novelty.
+- One geometry.
+- One stroke.
 - The work remains the focus.
 - The interface should become invisible.
-- Reduce until meaning begins to disappear.
-- Then add back one step.
+- Reduce before adding.
