@@ -38,6 +38,8 @@ Paths, patterns, views, publishing and organisation all emerge from the relation
 
 A Thing is the fundamental building block of Atlas.
 
+A Thing is an identifiable entity that can exist independently within the graph. It has its own identity, attributes and relationships.
+
 Atlas makes no assumptions about what a Thing represents.
 
 A Thing might represent:
