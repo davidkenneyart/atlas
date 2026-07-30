@@ -59,9 +59,9 @@ A Thing might represent:
 - a document
 - something that has not yet been defined
 
-A Thing exists independently of any description.
+Things are not defined by type, but by identity.
 
-It may exist with nothing more than its unique identity.
+Values such as 120 cm, 2026 or Acrylic are attributes, not Things.
 
 ---
 
