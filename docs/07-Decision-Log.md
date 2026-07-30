@@ -180,3 +180,19 @@ If the answer is yes, no new concept should be introduced.
 **Reason**
 
 Atlas grows through simplification rather than accumulation.
+
+---
+
+## D011 · Attributes remain attributes
+
+**Decision**
+
+Attributes remain attributes.
+
+Not every value becomes a Thing.
+
+**Reason**
+
+Promoting all values to Things dramatically increases complexity without providing additional meaning.
+
+However, the visual representation of a Thing may use the canvas rather than a traditional form.
