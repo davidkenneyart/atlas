@@ -162,6 +162,31 @@ These are interpretations of the graph, not changes to it.
 
 ---
 
+## Scale
+
+Atlas is navigated by changing scale rather than changing screens.
+
+Users move through knowledge by:
+
+- panning
+- zooming
+- selecting
+- exploring
+
+Rather than opening separate pages.
+
+---
+
+## The Canvas is the Interface
+
+The canvas is not only used to navigate between Things.
+
+It is also used to understand the internal structure of a Thing.
+
+The same interaction principles apply at every level of detail.
+
+---
+
 ## Vocabulary Emerges
 
 Atlas does not begin with predefined vocabularies.
